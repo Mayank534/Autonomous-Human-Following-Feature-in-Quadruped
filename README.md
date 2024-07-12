@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1K7Vp2FHSWGIjxEpKjeS06gsRTfFwnUGr/view?usp=shari
 Link to poster:
 https://drive.google.com/file/d/13tLJ2KR6yYEMqxYgfVmvRbxWn_1Gyeap/view?usp=sharing
 
-![Alt text](images/1.png)
+![Alt text](images/1.jpg)
 
 
 Improvements in robotics, artificial intelligence, and machine learning
