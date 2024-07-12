@@ -1,0 +1,2 @@
+https://drive.google.com/file/d/1DHgjLmP4WOKEPnvcgy7XRODIlyALedL0/view
+Extract -> src -> copub -> dnn -> frozen_inference_graph_coco.pb files extract
