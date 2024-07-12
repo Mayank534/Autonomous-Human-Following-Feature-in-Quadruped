@@ -1,0 +1,49 @@
+-- Nishant - Issues found during development of this repo--
+
+Initial spawn explosion (Global issue)
+    - robot flies up upon spawning for the first time, afterwards there is normal behaviour
+    - has something to do with contact Kp Kd
+
+Executor start problem (LAIR issue)
+    - executor sends joint positions 0 0 0 at the start 
+    - robot ends up jumping when standing
+    - hacked solution: starting high (height) in a way solves it
+
+Moving forward problem (LAIR issue)
+    - robot moves backward
+    - hacked solution: Using LAIR
+    - potential solution: PD gains?
+
+Stability problem (LAIR issue)
+    - robot falls off really fast
+    - hacked solution: reduced robot from 0.34 to 0.28
+
+Wrong/Inconsistent signs for sleep position b/w LAIR and SVAN (LAIR issue)
+    - FR and FL abd values are negated
+
+Executor sleep problem (LAIR issue)
+    - checks body x y z values?
+    - potentially wrong because of inconsistent signs
+
+URDF to Xacro (Global issue)
+    - will have to check
+    - xacro_run works but there were issues with the xacro from sim_release (the one containing camera mount)
+    - sim_release xacro file is in repo svan_sw
+
+Joint trajectory messages (LAIR issue)
+    - time from start - 0 s 0 ns (no other combinations seem to work)
+    - header empty (sending timestamp doesn't seem to help at all)
+    - this issue would not necessarily solve any problem but will clariify why we cannot use joint messages with delays
+
+Figure out why CHAMP works with only P commands and PD, and why LAIR does not work (LAIR issue)
+    - work with Rudradeep/Jagdeesh
+
+Generate/Use consistent worlds for mapping and nav testing
+    - can use the MAP used by CHAMP/TB3
+    
+Odometry 
+    - Currently using direct odometry would be better to use the odometry provided by legged odometry instead as it is more practical
+
+Stability 
+    - Due to instability while moving some portions get unmarked
+    
