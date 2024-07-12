@@ -12,6 +12,9 @@ https://drive.google.com/file/d/13tLJ2KR6yYEMqxYgfVmvRbxWn_1Gyeap/view?usp=shari
 
 ![Alt text](images/1.jpg)
 
+![Alt text](images/poster.png)
+
+
 
 Improvements in robotics, artificial intelligence, and machine learning
  have made quadruped robots more capable, reliable, and versatile,
